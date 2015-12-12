@@ -17,6 +17,7 @@
     "cookie-mem": "^1.0.1",
     "cson": "^3.0.2",
     "eventemitter2": "^0.4.14",
+    "lodash": "^3.10.1",
     "request": "^2.67.0",
     "shelljs": "^0.5.3",
     "tough-cookie": "^2.2.1",
