@@ -2,7 +2,7 @@
   "name": "cash.me",
   "version": "1.0.0",
   "description": "",
-  "main": "node lib/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "postinstall": "./node_modules/.bin/coffee Makefile.coffee"
   },
