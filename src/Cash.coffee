@@ -58,7 +58,7 @@ class Cash extends EventEmitter
 
 	payment: (action, recipient, amount, callback, options = {}) => 
 		payment_options = 
-			recipient: @recipient(recipient or options.recipient)
+			sender: @recipient(recipient or options.recipient)
 			amount_money:
 				amount: ((amount or options.amount) * 100).toString()
 				currency_code: options.currency_code or 'USD'
